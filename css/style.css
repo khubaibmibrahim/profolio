@@ -1,0 +1,264 @@
+:root {
+    --text-hover-color: #F7B500;
+    --color: white;
+}
+
+::selection {
+    background-color: #F7B500;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-color {
+    overflow: hidden;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    box-shadow: 0px 2px 6px 0px rgb(236, 233, 233);
+    height: 9vh;
+}
+
+.logo img {
+    padding-top: 10px;
+    align-items: center;
+    width: 35px;
+}
+
+.logo a {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: -29px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.navbar-links {
+    margin-top: 18px;
+    margin-left: 564px;
+}
+
+.navbar-links a {
+    font-weight: 500;
+    margin-left: 45px;
+}
+
+.navbar-links a:hover {
+    transition: 1s;
+    color: var(--text-hover-color);
+}
+
+.info {
+    margin-top: 160px;
+}
+
+.info span {
+    color: gainsboro;
+}
+
+.info h2 {
+    position: absolute;
+    margin-left: 20px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.info p {
+    font-weight: 400;
+    color: gray;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.info button {
+    margin-left: 20px;
+    padding: 5px 25px;
+    color: var(--color);
+    background-color: black;
+    border: transparent;
+}
+
+.info button:hover {
+    transition: 1s;
+    color: white;
+    background-color: var(--text-hover-color);
+}
+
+.hero img {
+    margin-top: 80px;
+    margin-left: 90px;
+    width: 73%;
+    animation: code infinite 3s ease-in-out;
+}
+
+@keyframes code {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px) scale(1.1);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.intro {
+    margin-top: 90px;
+}
+
+.intro h4 {
+    font-weight: bolder;
+}
+
+.personal-intro {
+    margin-left: 20px;
+    margin-top: 60px;
+
+}
+
+.personal-intro p {
+    margin-top: 30px;
+    color: gray;
+    font-weight: 500;
+}
+
+.personal-img {
+    margin-top: 50px;
+    margin-left: 80px;
+    height: 65vh;
+    width: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../asstes/WhatsApp\ Image\ 2024-03-30\ at\ 14.56.09_4f27e798.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 18px 18px 0 rgba(0, 0, 0, 0.202);
+    border-radius: 10px;
+    transition: all 3s;
+
+}
+
+.personal-img:hover {
+    background-image: url('../asstes/WhatsApp\ Image\ 2024-03-30\ at\ 14.56.09_4f27e798.jpg');
+    transition: all 4s;
+}
+.skill{
+    margin-top: 90px;
+}
+.skill img{
+    margin-top: 10px;
+    height: 81vh;
+}
+.skill h3{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 140px;
+}
+.skill p{
+    margin-top: 15px;
+    color: gray;
+    font-weight: 500;
+}
+.skill-range label{
+    margin-top: 20px;
+    margin-left: 4px;
+    font-weight: bold;
+}
+.progress{
+    margin-top: 10px;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0);   
+}
+.progress-bar{
+    background-color: #F7B500;
+}
+.detail {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.detail i{
+    color: var(--text-hover-color);
+}
+.detail h6{
+    margin-left: 40px;
+    margin-top: 7px;
+}
+.form-control{
+    width: 80%;
+    border-color: black;
+    margin-top: 37px;
+}
+.form-control::placeholder{
+    font-weight: 400;
+    color: #F7B500;
+}
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: black;
+}
+.input{
+    margin-top: 70px;
+}
+.input button{
+    margin-top: 26px;
+    padding: 5px 35px;
+    color: var(--color);
+    background-color: black;
+    border: transparent;
+}
+.copy {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.copy i {
+    margin-top: 5px;
+    margin-left: 350px;
+}
+
+.vr {
+    margin-top: 8px;
+    margin-left: 10px;
+    height: 20px;
+    color: black;
+}
+
+.copy h6 {
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.copy p {
+    margin-top: 4px;
+    margin-left: 6px;
+    font-style: italic;
+}
+.sect-5 {
+    margin-top: 40px;
+    padding: 5px;
+    box-shadow: 0px 2px 20px 0px lavender;
+}
+
+.socail-icons {
+    margin-left: 400px;
+}
+
+.socail-icons i {
+    font-size: 20px;
+    color: #F7B500;
+    margin-left: 30px;
+}
